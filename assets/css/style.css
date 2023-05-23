@@ -186,7 +186,8 @@ color: #000045;
     }
 
   .menu-item {
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
   }
 
   .nav-link {
@@ -208,7 +209,8 @@ color: #000045;
     display: block;
     width: 8rem;
     height: 8rem;
-    margin-top: 17rem;
+    margin-top: 18rem;
+    margin-left: 1rem;
   }
 
 
@@ -308,11 +310,11 @@ color: #000045;
 
 @keyframes logo {
   from {
-      transform: translateX(0%);
+      transform: translateX(-5%);
   }
 
   to {
-      transform: translateX(10%);
+      transform: translateX(5%);
   }
 }
 
