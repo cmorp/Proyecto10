@@ -275,6 +275,17 @@
   width: 100%;
 } 
 
+.btn {
+  filter: saturate(0);
+  width: 90%;
+  transition: all 2s;
+}
+
+.btn:hover {
+  filter: saturate(100%);
+  width: 100%;
+}
+
 .menu li {
   transform: scale(1);
   transition: transform 1s ease;
